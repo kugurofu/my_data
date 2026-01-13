@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="tsukuba_world">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <heightmap>
+            <uri>model://tsukuba_world/meshes/ground_heightmap_2.png</uri>
+
+            <size>250 200 2.27</size>
+
+            <pos>0 0 0</pos>
+          </heightmap>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <heightmap>
+            <uri>model://tsukuba_world/meshes/ground_heightmap_2.png</uri>
+            <size>250 200 2.27</size>
+            <pos>0 0 0</pos>
+          </heightmap>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
